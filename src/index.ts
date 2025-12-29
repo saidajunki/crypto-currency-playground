@@ -14,4 +14,4 @@ export { Transaction } from './transaction.js';
 export { Wallet } from './wallet.js';
 export { Blockchain } from './blockchain.js';
 export { Miner } from './miner.js';
-// export { FileStorage } from './storage.js';
+export { FileStorage } from './storage.js';
