@@ -8,10 +8,10 @@
 // 型定義のエクスポート
 export * from './types/index.js';
 
-// 各コンポーネントは実装後にここからエクスポートする
-// export { Block } from './block.js';
-// export { Transaction } from './transaction.js';
-// export { Wallet } from './wallet.js';
+// 各コンポーネントのエクスポート
+export { Block } from './block.js';
+export { Transaction } from './transaction.js';
+export { Wallet } from './wallet.js';
 // export { Blockchain } from './blockchain.js';
 // export { Miner } from './miner.js';
 // export { FileStorage } from './storage.js';

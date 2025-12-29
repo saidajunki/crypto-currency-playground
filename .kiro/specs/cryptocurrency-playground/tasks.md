@@ -6,14 +6,14 @@ TypeScriptで教育用暗号通貨シミュレーション環境を実装する�
 
 ## Tasks
 
-- [ ] 1. プロジェクトセットアップ
+- [x] 1. プロジェクトセットアップ
   - TypeScriptプロジェクト初期化（tsconfig.json, package.json）
   - 依存関係インストール: crypto-js（ハッシュ）, elliptic（署名）, fast-check（PBT）, vitest（テスト）
   - ディレクトリ構造作成: src/, src/types/, data/
   - _Requirements: 全体_
 
 - [ ] 2. Block実装
-  - [ ] 2.1 Blockクラス実装
+  - [x] 2.1 Blockクラス実装
     - IBlockインターフェース定義
     - Block クラス（index, timestamp, transactions, previousHash, nonce, hash）
     - calculateHash()メソッド（SHA-256使用）
@@ -30,7 +30,7 @@ TypeScriptで教育用暗号通貨シミュレーション環境を実装する�
     - **Validates: Requirements 1.4**
 
 - [ ] 3. Transaction実装
-  - [ ] 3.1 Transactionクラス実装
+  - [x] 3.1 Transactionクラス実装
     - ITransactionインターフェース定義
     - Transaction クラス（sender, recipient, amount, timestamp, signature）
     - calculateHash()メソッド
@@ -39,7 +39,7 @@ TypeScriptで教育用暗号通貨シミュレーション環境を実装する�
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
 - [ ] 4. Wallet実装
-  - [ ] 4.1 Walletクラス実装
+  - [x] 4.1 Walletクラス実装
     - IWalletインターフェース定義
     - Wallet クラス（publicKey, privateKey）
     - generate() 静的メソッド（secp256k1鍵ペア生成）
