@@ -136,7 +136,7 @@ TypeScriptで教育用暗号通貨シミュレーション環境を実装する�
     - 各コマンドの正常系・異常系テスト
     - _Requirements: 7.2, 7.3_
 
-- [ ] 11. Final Checkpoint - 全機能確認
+- [x] 11. Final Checkpoint - 全機能確認
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Notes

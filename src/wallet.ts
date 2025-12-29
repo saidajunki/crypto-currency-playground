@@ -5,10 +5,11 @@
  * 暗号通貨の「財布」として機能し、トランザクションの署名と検証を行う。
  */
 
-import { ec as EC } from 'elliptic';
+import elliptic from 'elliptic';
 import { IWallet, InvalidKeyError, WalletImportError } from './types/index.js';
 
 // 楕円曲線暗号のインスタンス（Bitcoinと同じsecp256k1を使用）
+const EC = elliptic.ec;
 const ec = new EC('secp256k1');
 
 /**

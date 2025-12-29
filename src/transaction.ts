@@ -6,10 +6,11 @@
  */
 
 import CryptoJS from 'crypto-js';
-import { ec as EC } from 'elliptic';
+import elliptic from 'elliptic';
 import { ITransaction, InvalidAmountError } from './types/index.js';
 
 // 楕円曲線暗号のインスタンス（Bitcoinと同じsecp256k1を使用）
+const EC = elliptic.ec;
 const ec = new EC('secp256k1');
 
 /**
