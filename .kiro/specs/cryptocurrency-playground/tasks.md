@@ -60,11 +60,11 @@ TypeScriptで教育用暗号通貨シミュレーション環境を実装する�
     - **Property 11: Wallet Export/Import Round-Trip**
     - **Validates: Requirements 4.5**
 
-- [ ] 5. Checkpoint - コアコンポーネント確認
+- [x] 5. Checkpoint - コアコンポーネント確認
   - Ensure all tests pass, ask the user if questions arise.
 
 - [ ] 6. Miner実装
-  - [ ] 6.1 Minerクラス実装
+  - [x] 6.1 Minerクラス実装
     - IMinerインターフェース定義
     - Miner クラス（difficulty）
     - mine() メソッド（Proof of Work実装）
@@ -75,7 +75,7 @@ TypeScriptで教育用暗号通貨シミュレーション環境を実装する�
     - **Validates: Requirements 5.1, 5.2**
 
 - [ ] 7. Blockchain実装
-  - [ ] 7.1 Blockchainクラス実装
+  - [x] 7.1 Blockchainクラス実装
     - IBlockchainインターフェース定義
     - Blockchain クラス（chain, pendingTransactions, difficulty, miningReward）
     - createGenesisBlock() メソッド
